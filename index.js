@@ -1,5 +1,6 @@
 const body=document.getElementById('body');
 const btn=document.getElementById('btn');
+const heading=document.getElementById('h3');
 
 btn.addEventListener('click',color_changer);
 function color_changer(){
@@ -16,6 +17,7 @@ function color_changer(){
     const b=Math.floor(Math.random()*256);
     const borderrgb=`RGB(${r},${g},${b})`;
     btn.style.borderColor=borderrgb;
+    heading.style.color=borderrgb;
 
     const rc=Math.floor(Math.random()*256);
     const gc=Math.floor(Math.random()*256);

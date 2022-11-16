@@ -1,9 +1,13 @@
 body{
     background: RGB(255, 255, 255);
     display: flex;
-    justify-content: center;
     margin-top: 20%;
-    /* align-items: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+#h3{
+    display: block;
 }
 #btn{
     border: 5px solid ;
@@ -12,4 +16,5 @@ body{
     width: 150px;
     color: blue;
     border-radius: 10px;
+    display: block;
 }
