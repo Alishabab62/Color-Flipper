@@ -1,0 +1,16 @@
+body{
+    background: RGB(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    /* align-items: center; */
+}
+h3{
+    display: inline;
+    background-color: aqua;
+}
+#btn{
+    border: 5px solid red;
+    height: 50px;
+    width: 150px;
+}
